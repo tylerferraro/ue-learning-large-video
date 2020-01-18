@@ -1,0 +1,11 @@
+{
+  "name": "Unreal Engine Learning Large Video",
+  "version": "1.0",
+  "description": "Makes the learning video larger for easier viewing",
+  "manifest_version": 2,
+  "content_scripts": [{
+    "js": ["main.js"],
+    "matches": ["https://learn.unrealengine.com/course/*"]
+  }]
+}
+
